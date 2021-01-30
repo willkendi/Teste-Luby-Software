@@ -1,0 +1,12 @@
+CREATE DATABASE vending_machine;
+use vending_machine;
+CREATE TABLE produtos(
+    id_produto INT PRIMARY KEY AUTO_INCREMENT,
+    nome  varchar(30),
+    preco double,
+    quantidade	int
+    );
+    
+    INSERT INTO produtos(nome,preco,quantidade) VALUES('Guarana','3.50','500');
+    INSERT INTO produtos(nome,preco,quantidade) VALUES('Coca Cola','4','500');
+    INSERT INTO produtos(nome,preco,quantidade) VALUES('Pepsi','6','500');

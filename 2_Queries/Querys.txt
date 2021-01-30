@@ -1,0 +1,10 @@
+1) SELECT nome,evento FROM tabela_pessoa INNER JOIN tabela_evento ON tabela_pessoa.id = tabela_evento.pessoa_id;
+2) SELECT nome FROM tabela_pessoa WHERE nome like '%Doe';                                                      
+3) INSERT INTO tabela_evento(evento,pessoa_id) VALUES ('novo evento',5);
+4) UPDATE tabela_evento SET pessoa_id = '1' WHERE evento = 'Evento D';
+5) DELETE FROM tabela_evento WHERE evento = 'Evento B';
+6) DELETE FROM tabela_pessoa WHERE id NOT IN (SELECT pessoa_id FROM tabela_evento);
+7) ALTER TABLE tabela_pessoa ADD COLUMN(idade int); 
+8) CREATE TABLE tabela_telefone( id INT PRIMARY KEY, telefone varchar(200), CONSTRAINT pessoa_id FOREIGN KEY (id) REFERENCES tabela_pessoa(id));   
+9) ALTER TABLE tabela_telefone ADD INDEX (telefone);       
+10) DROP TABLE tabela_telefone;                                                                                                                                                                                                                                          
