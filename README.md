@@ -42,4 +42,4 @@ Para realização do teste o usuário deve escolher o ID do produto, a quantidad
 ### 3.4.1 Validações
 As validações foram feitas através de funções com retorno;
 ### 3.4.2 Estoque
-Para vizualizar o estoque, clique na opção "Estoque";
+Para visualizar o estoque, clique na opção "Estoque";
